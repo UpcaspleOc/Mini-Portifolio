@@ -12,7 +12,7 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    padding: 30px;
+    padding: 10px;
     
 
 }
@@ -20,7 +20,7 @@ body{
 .cartao{
 
     background-color: #070d12;
-    width: 370px;
+    width: 400px;
     border: 2px solid rgb(98, 0, 115);
     border-radius: 10px;
     overflow: hidden;
