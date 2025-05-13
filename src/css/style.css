@@ -1,0 +1,182 @@
+body{
+
+    background-image: url(../imagens/fundo-site.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    font-family: 'Montserrat', monospace;
+    color: #f3f3f3;
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 30px;
+    
+
+}
+
+.cartao{
+
+    background-color: #070d12;
+    width: 370px;
+    border: 2px solid rgb(98, 0, 115);
+    border-radius: 10px;
+    overflow: hidden;
+
+}
+
+.cartao .info{
+
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5px;
+
+}
+
+.cartao .info img{
+
+    border-radius: 100px;
+    border: 4px solid rgb(37, 0, 52) ;
+
+}
+
+.cartao .info .nome{
+
+    font-size: 26px;
+
+}
+
+.cartao .info .cargo{
+
+    color:rgb(216, 216, 216);
+
+}
+
+.cartao .info-abas{
+
+    background-color: #262626;
+
+}
+
+.cartao .conteudo{
+
+    margin-top: 15px;
+
+}
+
+.cartao .abas{
+
+    display: flex;
+
+}
+
+.cartao .abas .aba{
+
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    cursor: pointer;
+    transition: background-color 0. 2s ease-in-out;
+
+}
+
+.cartao .abas img{
+
+    width: 30px;
+
+}
+
+.cartao .abas .aba.selecionado{
+
+    background-color: #262626;
+
+}
+
+.cartao .abas .aba:hover{
+
+    background-color: #414141;
+
+}
+
+.info-abas .info-conteudo{
+
+    min-height: 260px;
+    padding: 15px;
+    display: none;
+
+}
+
+.info-abas .info-conteudo.selecionado{
+
+    display: block;
+
+}
+
+.info-abas .sub-titulo{
+
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-align: center;
+
+}
+
+.info-abas .desc{
+
+    font-size: 20px;
+    max-height: 180px;
+    overflow-y: auto;
+    padding: 15px;
+
+}
+
+.redes-sociais{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 25px;
+    max-height: 180px;
+    overflow-y: auto;
+
+}
+
+.redes-sociais li a{
+
+    background-color: blueviolet;
+    width: 250px;
+    display: block;
+    color: #f3f3f3;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    transition: background-color 0. 3s ease-in-out;
+
+}
+
+.redes-sociais li a:hover{
+
+    background-color:rgb(28, 0, 77);
+
+}
+
+::-webkit-scrollbar{
+
+    width: 5px;
+    color: rgb(0, 114, 19);
+
+}
+
+::-webkit-scrollbar-thumb{
+
+    width: 5px;
+    background-color: blueviolet;
+    border-radius: 50px;
+
+}
